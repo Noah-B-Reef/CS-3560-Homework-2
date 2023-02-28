@@ -52,7 +52,7 @@ public class Student {
 
     public boolean eqauls(Student student)
     {
-        if (student == this)
+        if (student.getName() == this.name && student.getGpa() == this.gpa && student.getMajor() == this.major)
         {
             return true;
         }
