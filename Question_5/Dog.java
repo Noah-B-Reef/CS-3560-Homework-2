@@ -1,20 +1,16 @@
 package Question_5;
 
+import java.util.List;
+
 public class Dog {
    private String breed;
     private String name;
-    private Paw frontRightPaw;
-    private Paw frontLeftPaw;
-    private Paw backRightPaw;
-    private Paw backLeftPaw;
+    private List<Paw> paws;
     
     public Dog()
     {
         this.breed = "";
         this.name = "";
-        this.frontRightPaw = null;
-        this.frontLeftPaw = null;
-        this.backRightPaw = null;
-        this.backLeftPaw= null;
+        this.paws = null;
     }
 }

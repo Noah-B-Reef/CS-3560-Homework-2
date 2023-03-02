@@ -1,11 +1,13 @@
 package Question_5;
 
+import java.util.List;
+
 public class Course {
    private int code;
-   private Book[] books = new Book[2];
+   private List<Book> books;
 
 
-    public Course(int code, Book[] books)
+    public Course(int code, List<Book> books)
     {
          this.code = code;
          this.books = books;
