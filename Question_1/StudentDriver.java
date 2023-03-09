@@ -4,7 +4,9 @@ public class StudentDriver {
     {
         Student John = new Student("John", "CS", 3.5);
         Student Mary = new Student();
-        Mary.setMajor("EE");
+        Mary.setName("Mary Ann");
+        Mary.setMajor("CE");
+        Mary.setGpa(3.3);
 
         System.out.println(John.toString());
         System.out.println(Mary.toString());

@@ -1,6 +1,6 @@
 package Question_5;
 
-public class Employee {
+public abstract class Employee {
     private String name;
     private int hours;
 
@@ -10,6 +10,7 @@ public class Employee {
         this.hours = hours;
     }
 
+   
     public double calculateSalary()
     {
         return hours*20;

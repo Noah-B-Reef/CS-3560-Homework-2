@@ -13,7 +13,7 @@ public class Student {
    }
    public Student()
    {
-     this("Mary Ann", "CE", 3.5);
+     this(null, null, 0.0);
    }
 
    public Student(String name, String major)
