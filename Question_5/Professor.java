@@ -13,6 +13,6 @@ public class Professor extends Employee{
     @Override
     public double calculateSalary()
     {
-        return super.hours * 30;
+        return super.getHours() * 30;
     }
 }
